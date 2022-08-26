@@ -187,10 +187,6 @@ form label{
     align-items: center;
 }
 
-form label img{
-   margin-right: 15px;
-}
-
 form input{
     font-family: 'Cera Pro';
     font-style: normal;
@@ -201,7 +197,7 @@ form input{
     border: none;
     background-color: transparent;
     padding: 8px 16px;
-    text-align: center;
+    text-align: start;
 }
 
 form input::placeholder {
