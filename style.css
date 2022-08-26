@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+*::before,*::after {
+    box-sizing: border-box;
+}
+
 body{
     font-family: 'Cera Pro';
 }
@@ -10,7 +14,7 @@ body{
 .section1{
     min-height: 100vh;
     background: rgba(255, 255, 255, 0.9);
-    backdrop-filter: blur(384.02px);
+    backdrop-filter: blur(340px);
     position: relative;
     overflow: hidden;
 }
@@ -19,7 +23,7 @@ body{
     position: absolute;
     width: 80vw;
     height: 80vw;
-    background-color: #ffdb80b3;    
+    background-color: #ffdb80;    
     border-radius: 50%;
     top: -30%;
     left: -20%;
@@ -32,7 +36,7 @@ body{
     position: absolute;
     width: 80vw;
     height: 80vw;
-    background-color: #47cbf392;
+    background-color: #47cbf3;
     border-radius: 50%;
     top: -20%;
     right: -20%;
@@ -280,4 +284,15 @@ form button{
     font-size: 12.5369px;
     line-height: 38px;
     color: #000000;
+}
+
+.companies-logo{
+    width: 670.56px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    align-items: center;
+    justify-content:space-between; 
+    display: flex;
 }
