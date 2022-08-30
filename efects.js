@@ -1,11 +1,11 @@
-$(document).ready(function(){
-    $('.slider').slick({
-      autoplay: true,
-      autoplaySpeed: 2000,
-      arrows: false,
-      dots: true,
-      dotsClass: 'slider-dot',
-    });
+$(document).ready(function(){ // jQuery -> чекаємо завантаження сторінки
+    $('#slider').slick({ // $('.slider')  -> обираємо елемент на якому запустити ; .slick({    }) заускаємо код слайдера з бібліотеки з налаштування
+        autoplay: true,
+        autoplaySpeed: 2000,
+        arrows: false,
+        dots: true,
+        dotsClass: 'slider-dot',
+    })
 
     $('header menu a').click(function(e) {
         e.preventDefault();
@@ -23,4 +23,5 @@ $(document).ready(function(){
             });
         }
     });
-  });
+
+});
