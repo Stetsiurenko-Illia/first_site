@@ -7,19 +7,20 @@ $(document).ready(function(){
       dotsClass: 'slider-dot',
     });
 
-    $('header menu a').click(function(e){
+    $('header menu a').click(function(e) {
         e.preventDefault();
-        const id = $(this).attr('href');
-        console.log(id);
+         const id = $(this).attr('href');
 
-        const element = $(id)
 
-        if(element.lenth){
+         const element = $(id)
+
+         if (element.length){
             $('html, body').animate({
-                scrollTop: $(id).offset().top
+                scrollTop: element.offset().top
             }, 800, function(){
-                window.location.id = id;
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = id;
             });
         }
-    })
+    });
   });
