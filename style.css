@@ -406,35 +406,6 @@ header h1{
     
 }
 
-.section2 .container .description h2{
-    margin-top: 120px;
-    font-family: 'Gilroy-SemiBold';
-    font-size: 18.8054px;
-    line-height: 22px;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-
-    color: #FD5B2F;
-}
-
-.section2 .container .description h1{
-    margin: 0;
-    font-family: 'Gilroy-Medium';
-    font-size: 52.2371px;
-    line-height: 100%;
-
-    color: #000000;
-}
-
-.section2 .container .description p{
-    margin-top: 20px;
-    margin-bottom: 85px;
-    font-family: 'Avenir';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15.6711px;
-    line-height: 240%;
-}
 
 .section2 .container .description .button-group{
     display: flex;
