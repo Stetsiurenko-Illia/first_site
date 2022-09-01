@@ -12,6 +12,40 @@ body{
     background: rgba(255, 255, 255, 0.9);
 }
 
+h1{
+    font-family: 'Gilroy-Medium';
+    font-size: 52.2371px;
+    line-height: 100%;
+
+    color: #000000;
+}
+
+h2{
+    font-family: 'Gilroy-SemiBold';
+    font-size: 18.8054px;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #FD5B2F;
+}
+
+h3{
+    font-family: 'Gilroy-Medium';
+    font-size: 16.7159px;
+    line-height: 20px;
+
+    color: #000000;
+}
+
+p{
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15.6711px;
+    line-height: 240%;
+}
+
 .ellipse1{
     position: absolute;
     background: #FFDB80;
@@ -394,6 +428,8 @@ header h1{
     background-color: #FD5b2f;
 }
 
+/* section 2 */
+
 .section2 .container{
     display: flex;
     flex-direction: row;
@@ -406,6 +442,18 @@ header h1{
     
 }
 
+.section2 .container .description h2{
+    margin-top: 120px;
+}
+
+.section2 .container .description h1{
+    margin: 0;
+}
+
+.section2 .container .description p{
+    margin-top: 20px;
+    margin-bottom: 85px;
+}
 
 .section2 .container .description .button-group{
     display: flex;
@@ -500,4 +548,126 @@ header h1{
     position: fixed; 
     right: 180px;
     top: 185px;
+}
+
+/* section 3 */
+
+.section3 .container{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 200px;
+}
+
+.curve{
+    position: absolute;
+    z-index: -1;
+    left: 100px;
+    top: 120px;
+}
+
+.section3 .container .left{
+    width: 45%;
+}
+
+.section3 .container .left h2{
+    margin-top: 40px;
+}
+
+.section3 .container .left .description h1{
+    margin: 0;
+}
+
+.section3 .container .left .description p{
+    margin-top: 20px;
+}
+
+.section3 .container .left .description .group-benefits{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.section3 .container .left .description .benefits{
+    width: 250px;
+    margin: 25px 25px 25px 0;
+}
+
+.section3 .container .left .description .benefits .title{
+    display: flex;
+    flex-direction: row;
+}
+
+.section3 .container .left .description .benefits .title h3{
+    margin-left: 14px;
+}
+
+.section3 .container .left .description button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9.40268px 36.566px;
+    gap: 10.45px;
+
+    position: absolute;
+    width: 176.56px;
+    height: 56.42px;
+
+    background: #FD5B2F;
+    border: none;
+    border-radius: 5.22371px;
+
+    font-family: 'Gilroy-Medium';
+    font-size: 16.7159px;
+    line-height: 20px;
+    color: #FFFFFF;
+
+    cursor: pointer;
+    z-index: 1;
+
+}
+
+.right{
+    margin-left: 150px;
+}
+
+.rectangle{
+    position: absolute;
+    width: 445.06px;
+    height: 353.12px;
+
+    background: #FFF3C8;
+    border-radius: 146.264px 0px 0px 0px;
+
+    top: 80px;
+    z-index: 1;
+}
+
+.office1{
+    position: absolute;
+    top: -38px;
+    right: 36px;
+    z-index: 1;
+}
+
+.office2{
+    position: absolute;
+    top: -2px;
+    right: 123px;
+    z-index: 1;
+}
+
+.office3{
+    position: absolute;
+    top: 248px;
+    right: -86px;
+    z-index: 1;
+}
+
+.office4{
+    position: absolute;
+    top: 350px;
+    right: 123px;
+    z-index: 1;
 }
