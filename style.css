@@ -49,14 +49,14 @@ p{
 .ellipse1{
     position: absolute;
     background: #FFDB80;
-    width: 1172.2px;
+    /* width: 1172.2px;
     height: 1172.2px;
     left: -471.18px;
-    top: -408.49px;
-    /* width: 100vh;
-    height: 100vh;    
-    top: -30%;
-    left: -20%; */
+    top: -408.49px; */
+    width: 81.5vw;
+    height: 81.5vw;    
+    top: -28.4%;
+    left: -32.72%;
     border-radius: 50%;
     opacity: 0.1;   
 }
@@ -64,14 +64,14 @@ p{
 .ellipse2{
     position: absolute;
     background: #47CAF3;
-    width: 943px;
+    /* width: 943px;
     height: 944px;
     left: 724px;
-    top: -100px;
-    /* width: 65vw;
-    height: 65vw;
-    top: -20%;
-    right: -20%; */
+    top: -100px; */
+    width: 65.5vw;
+    height: 65.5vw;
+    top: -7%;
+    left: 50.27px;
     opacity: 0.1;
     border-radius: 50%;
 }
@@ -521,7 +521,6 @@ header h1{
 .section2 .container .circle{
     opacity: 0.1;
     position: absolute;
-    display: flex;
     width: 369.72px;
     height: 372.43px;
     left: 1000.91px;
@@ -537,17 +536,17 @@ header h1{
 }
 
 .section2 .container .circle #e1{
-    position: absolute; 
+    position: relative; 
 }
 .section2 .container .circle #e2{
-    position: absolute;
-    top: 100px;
-    left: 50px;
+    position: relative;
+    top: -70px;
+    right: -60px;
 }
 .section2 .container .circle #e3{
-    position: fixed; 
-    right: 180px;
-    top: 185px;
+    position: relative; 
+    right: -160px;
+    bottom: 420px;
 }
 
 /* section 3 */
@@ -671,3 +670,5 @@ header h1{
     right: 123px;
     z-index: 1;
 }
+
+/* section 4 */
