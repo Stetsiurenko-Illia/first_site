@@ -46,6 +46,12 @@ p{
     line-height: 240%;
 }
 
+section{
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
 .ellipse1{
     position: absolute;
     background: #FFDB80;
@@ -77,14 +83,11 @@ p{
 }
 
 .section1{
-    min-height: 100vh;
-    position: relative;
-    overflow: hidden;
     backdrop-filter: blur(384.02px);
 }
 
 .container{
-    max-width: 1200px;
+    max-width: 1300px;
     height: 100%;
     margin: 0 auto;
     position: relative;
@@ -364,6 +367,7 @@ header h1{
 .section2{
     padding: 160px 0;
     backdrop-filter: blur(384.02px);
+    height: 100vh;
 }
 
 .slider{
@@ -444,6 +448,7 @@ header h1{
 
 .section2 .container .description h2{
     margin-top: 120px;
+    text-transform: uppercase;
 }
 
 .section2 .container .description h1{
@@ -550,18 +555,18 @@ header h1{
 }
 
 /* section 3 */
+.section3{
+    height: 100vh;
+}
 
 .section3 .container{
     display: flex;
     flex-direction: row;
-    margin-bottom: 200px;
-}
-
-.curve{
-    position: absolute;
-    z-index: -1;
-    left: 100px;
-    top: 120px;
+    margin-bottom: 150px;
+    background-image: url(./img/ThirdPage/background.png);
+    background-position: top 0px left 65px;
+    background-repeat: no-repeat;
+    background-size:  1000px;
 }
 
 .section3 .container .left{
@@ -570,6 +575,7 @@ header h1{
 
 .section3 .container .left h2{
     margin-top: 40px;
+    text-transform: uppercase;
 }
 
 .section3 .container .left .description h1{
@@ -627,11 +633,11 @@ header h1{
 
 }
 
-.right{
+.section3 .container .right{
     margin-left: 150px;
 }
 
-.rectangle{
+.section3 .container .right .rectangle{
     position: absolute;
     width: 445.06px;
     height: 353.12px;
@@ -640,31 +646,31 @@ header h1{
     border-radius: 146.264px 0px 0px 0px;
 
     top: 80px;
-    z-index: 1;
+    z-index: 0;
 }
 
-.office1{
+.section3 .container .right .office1{
     position: absolute;
     top: -38px;
     right: 36px;
     z-index: 1;
 }
 
-.office2{
+.section3 .container .right .office2{
     position: absolute;
     top: -2px;
     right: 123px;
     z-index: 1;
 }
 
-.office3{
+.section3 .container .right .office3{
     position: absolute;
     top: 248px;
     right: -86px;
     z-index: 1;
 }
 
-.office4{
+.section3 .container .right .office4{
     position: absolute;
     top: 350px;
     right: 123px;
@@ -672,3 +678,142 @@ header h1{
 }
 
 /* section 4 */
+.section4{
+    height: 100vh;
+    margin-bottom: 150px;
+}
+
+.section4 .container{
+    display: flex;
+    flex-direction: row ;
+    padding: 150px;
+    background-image: url(./img/FourthPage/Vector.png);
+    background-position: top 180px left 250px;
+    background-repeat: no-repeat;
+}
+
+.section4 .container .left{
+    width: 45%;
+    margin-right: 60px ;
+}
+
+.section4 .container .description{
+    margin-top: 150px;
+}
+
+.section4 .container .description .left h2{
+    margin-top: 40px;
+    text-transform: uppercase;
+}
+
+.section4 .container .left .description h1{
+    margin: 0;
+}
+
+.section4 .container .left .description p{
+    margin-top: 20px;
+    margin-bottom: 84px;
+}
+
+.section4 .container .left  button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9.40268px 36.566px;
+    gap: 10.45px;
+
+    position: absolute;
+    width: 176.56px;
+    height: 56.42px;
+
+    background: #FD5B2F;
+    border: none;
+    border-radius: 5.22371px;
+
+    font-family: 'Gilroy-Medium';
+    font-size: 16.7159px;
+    line-height: 20px;
+    color: #FFFFFF;
+
+    cursor: pointer;
+    z-index: 1;
+
+}
+
+.section4 .container .right{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+
+.section4 .container .right #img1{
+    object-fit: cover;
+    width: 532.82px;
+    height: 710.42px;
+    margin-right: 20px;
+}
+
+.section4 .container .right #img2{
+    object-fit: cover;
+    width: 532.82px;
+    height: 710.42px;
+}
+
+/*section5*/
+
+.section5 .container h1{
+    text-align: center;
+    font-family: 'Gilroy-Medium';
+    font-size: 52.2371px;
+    line-height: 71px;
+    margin-bottom: 50px;
+}
+
+.section5 .container h2{
+    text-align: center;
+    font-family: 'Gilroy-SemiBold';
+    font-size: 18.8054px;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.section5 .container .benefits{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.section5 .container .benefits .item{
+    width: 216.26px;
+    height: 200.59px;
+}
+
+.section5 .container .benefits .item + .item{
+    margin-left: 50px;
+}
+
+.section5 .container .benefits .item img{
+    display: flex;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.section5 .container .benefits .item h6{
+    font-family: 'Gilroy-SemiBold';
+    font-size: 20.8948px;
+    line-height: 24px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.section5 .container .benefits .item p{
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.5369px;
+    line-height: 25px;
+    text-align: center;
+}
+
