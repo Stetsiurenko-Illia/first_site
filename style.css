@@ -43,7 +43,7 @@ p{
     font-style: normal;
     font-weight: 500;
     font-size: 15.6711px;
-    line-height: 240%;
+    line-height: 37.61px;
 }
 
 section{
@@ -298,6 +298,7 @@ header h1{
     color: #FFFFFF;
 
     border: none;
+    cursor: pointer;
 }
 
 .people-group{
@@ -827,12 +828,10 @@ header h1{
 .section6 .container{
     display: flex;
     flex-direction: row;
+    left: 50px;
 }
 .section6 .container .left{
     width: 52%;
-}
-
-.section6 .container .left .h1{
 }
 
 .section6 .container .left .photo{
@@ -848,3 +847,84 @@ header h1{
     position: relative;
     top: -39px
 }
+
+/* section7 */
+
+.section7 .container{
+    left: 60px;
+    margin-top: 210px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 77px;
+}
+
+.section7 .container .left{
+    width: 50%;
+    margin-right: 50px;
+}
+
+.section7 .container .left h2{
+    margin-top: 90px;
+    margin-bottom: 5px;
+}
+
+.section7 .container .left p{
+    width: 587.15px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+.section7 .container .left .buttons{
+    display: flex;
+    flex-direction: row;
+}
+
+.section7 .container .left .buttons #b1{
+    margin-right: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9.40268px 36.566px;
+    gap: 10.45px;
+
+    width: 176.56px;
+    height: 56.42px;
+
+    background: #FD5B2F;
+    border-radius: 5.22371px;
+    border: none;
+
+    font-family: 'Gilroy-Medium';
+    font-size: 16.7159px;
+    line-height: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.section7 .container .left .buttons #b2{
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9.40268px 36.566px;
+    gap: 10.45px;
+
+    width: 176.56px;
+    height: 56.42px;
+
+    border: 1.04474px solid #FD5B2F;
+    border-radius: 5.22371px;
+    cursor: pointer;
+
+    background-color: transparent;
+
+    font-family: 'Gilroy-Medium';
+    font-size: 16.7159px;
+    line-height: 20px;
+    text-align: center;
+    color: #FD5B2F;
+}
+
