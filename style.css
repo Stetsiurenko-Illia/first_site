@@ -928,3 +928,112 @@ header h1{
     color: #FD5B2F;
 }
 
+/* footer */
+
+.fon-footer{
+    background: linear-gradient(180deg, rgba(253, 91, 47, 0) 0%, #FD5B2F 100%);
+    opacity: 0.15;
+    height: 500px;
+    width: 99vw;
+    position: absolute;
+}
+
+footer{
+    height: auto;
+}
+
+footer .container{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    margin-top: 140px;
+}
+
+footer .container div{
+    display: flex;
+    flex-direction: column;
+}
+
+footer .container .description{
+    margin-right: 120px;
+} 
+
+footer .container .company{
+    margin-right: 120px;
+} 
+
+footer .container .follow{
+    margin-left: 120px;
+}
+
+footer .container .follow .social{
+    display: flex;
+    flex-direction: row;
+}
+
+footer .container .description h1{
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29.2528px;
+    line-height: 37px;
+
+    color: #000000;
+    margin-bottom: 24px;
+}
+
+footer .container .description p{
+    font-family: 'Gilroy-Regular';
+    font-size: 16.7159px;
+    line-height: 31px;
+
+    color: #000000;
+    width: 294.62px;
+}
+
+footer .container a{
+    font-family: 'Gilroy-Regular';
+    font-size: 16.7159px;
+    line-height: 20px;
+
+    color: #000000;
+    cursor: pointer;
+    text-decoration: none;
+    margin-bottom: 20px;
+
+}
+
+footer .container h6{
+    font-family: 'Gilroy-SemiBold';
+    font-size: 20.8948px;
+    line-height: 24px;
+
+    color: #FD5B2F;
+    margin-bottom: 25px;
+
+}
+
+footer .container .follow .social a{
+    background: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    
+    
+}
+
+footer .container .follow .social img{
+    position: relative;
+    display: flex;
+    text-align: center;
+    top: 7px;
+    margin: 0 auto;
+}
+
+footer .container .follow .social #twit{
+    top: 10px
+}
+
+footer .container .follow .social a + a{
+    margin-left: 10px;
+}
