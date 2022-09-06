@@ -15,7 +15,7 @@ body{
 h1{
     font-family: 'Gilroy-Medium';
     font-size: 52.2371px;
-    line-height: 100%;
+    line-height: 136%;
 
     color: #000000;
 }
@@ -47,7 +47,7 @@ p{
 }
 
 section{
-    min-height: 100vh;
+    min-height: auto;
     position: relative;
     overflow: hidden;
 }
@@ -762,6 +762,10 @@ header h1{
 
 /*section5*/
 
+.section5{
+    margin-bottom: 160px;
+}
+
 .section5 .container h1{
     text-align: center;
     font-family: 'Gilroy-Medium';
@@ -804,8 +808,8 @@ header h1{
     font-family: 'Gilroy-SemiBold';
     font-size: 20.8948px;
     line-height: 24px;
-    text-align: center;
     padding-bottom: 15px;
+    text-align: center;
 }
 
 .section5 .container .benefits .item p{
@@ -817,3 +821,30 @@ header h1{
     text-align: center;
 }
 
+/*section 6*/
+
+
+.section6 .container{
+    display: flex;
+    flex-direction: row;
+}
+.section6 .container .left{
+    width: 52%;
+}
+
+.section6 .container .left .h1{
+}
+
+.section6 .container .left .photo{
+    margin-top: 30px;
+    position: relative;
+    left: -15px;
+}
+.section6 .container .left .photo img{
+    margin: 15px ;
+}
+
+.section6 .container .right img{
+    position: relative;
+    top: -39px
+}
